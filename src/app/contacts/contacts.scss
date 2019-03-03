@@ -1,0 +1,58 @@
+a, 
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+.text {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+}
+.content {
+    padding: 2vh;
+    border: 0.2vh dotted #FFF;
+    position: relative;
+    top: 15%;
+    width: 40%;
+    left: 5%;
+    box-shadow: -9px 8px 0px 0px #FFF;
+}
+
+cite {
+    width: 100%;
+    position: relative;
+}
+
+cite > a {
+    color: rgba(255, 255, 255, 0.644);
+    transition: 0.75s;
+    position: relative;
+    right: 0%;
+}
+cite > a:hover {
+    color: rgba(255, 255, 255, 100%);
+}
+
+.flex-centered {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    position: relative;
+    display: inline-flex;
+    top: 5%;
+    left: 5%;
+}
+
+#contact-wrapper {
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    left: 25%;
+}
